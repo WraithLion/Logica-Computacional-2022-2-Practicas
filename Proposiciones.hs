@@ -1,3 +1,4 @@
+-- Leonardo Aguirre Muñoz
 module Proposiciones where
 -- Tipo de dato que modele las fórmulas atómicas
 data ATOM = Cte Bool
