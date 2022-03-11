@@ -1,3 +1,4 @@
+--Leonardo Aguirre Muñoz
 module Practica4 where
 
 import Proposiciones
