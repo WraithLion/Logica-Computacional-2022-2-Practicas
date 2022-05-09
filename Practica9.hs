@@ -1,7 +1,6 @@
 module Ejercicio09 where
 -- Leonardo Aguirre Muñoz
 import LPred
-import Ejemplo
 --------------------------------------------------------------------------------
 -- Ejercicios
 
