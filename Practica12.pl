@@ -27,23 +27,6 @@ elemento(X, arbolbb(nodo(X, _, _))).
 elemento(X, arbolbb(nodo(_, Arbol_Izquierdo, _)))  :- elemento(X, Arbol_Izquierdo).
 elemento(X, arbolbb(nodo(_, _, Arbol_Derecho))) :- elemento(X, Arbol_Derecho).
 
-/**Ejemplos
-
-elemento(6,arbolbb(nodo(1,arbolbb(nodo(3,vacio,vacio)),arbolbb(nodo(6,vacio,vacio))))).
-
-agrega(4,arbolbb(nodo(3,arbolbb(vacio),arbolbb(vacio))),A).
-
-elimina(4,arbolbb(nodo(3,arbolbb(vacio),arbolbb(nodo(4,vacio,vacio)))),A).
-
-sum_list(inorden(arbolbb(1,arbolbb(0,vacio,vacio),arbolbb(3,arbolbb(2,vacio,vacio),vacio)),A)).
-
-Suma is Elemento_Derecho+Elemento_Izquierdo+Raiz.
-
-promedio_elementos(arbolbb(1,arbolbb(0,vacio,vacio),arbolbb(3,arbolbb(2,vacio,vacio),vacio)),A).
-
-suma_elementos(arbolbb(1,arbolbb(0,vacio,vacio),arbolbb(3,arbolbb(2,vacio,vacio),vacio)),A).
-
-*/
 
 /**Funcion que agrega un elemento nuevo al arbol binario*/
 
